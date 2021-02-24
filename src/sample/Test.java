@@ -4,13 +4,13 @@ public class Test {
     public void add(){
         System.out.println("Hello");
     }
-    public int display(){
-        return 3;
+    public void display(int i){
+        System.out.println(i);
     }
 
     public static void main(String[] args) {
         Test demo= new Test();
         demo.add();
-        demo.display();
+        demo.display(3);
     }
 }
