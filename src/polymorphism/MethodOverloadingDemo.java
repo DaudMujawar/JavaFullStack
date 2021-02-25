@@ -13,7 +13,7 @@ public class MethodOverloadingDemo {
         return 1;
     }
     public void show(){
-        System.out.println("In show 2");
+        System.out.println("In show 1");
     }
     public void add(int i,int j,int k){
         c=i+j+k;
