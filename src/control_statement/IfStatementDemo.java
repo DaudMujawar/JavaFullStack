@@ -4,6 +4,7 @@ public class IfStatementDemo {
     public static void main(String[] args) {
         int a=10,b=20,c=15,d=25;
         int g=0;
+        int h=2;
 
         if(a>b && a>c && a>d){
             System.out.println("a is greater");
@@ -33,6 +34,9 @@ public class IfStatementDemo {
 
         int s= g>0?100:200;
         System.out.println(s);
+
+        String v=h>4?"num is greater":"num is small";
+        System.out.println(v);
 
     }
 
