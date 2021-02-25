@@ -23,7 +23,7 @@ class Dog extends Animal{
 
     @Override
     void sound() {
-        System.out.println("Bhooo Bhoo");
+        System.out.println("Dog sound");
     }
 }
 class Cat extends Animal{
