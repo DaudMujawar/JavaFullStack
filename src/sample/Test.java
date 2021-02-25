@@ -11,6 +11,6 @@ public class Test {
     public static void main(String[] args) {
         Test demo= new Test();
         demo.add();
-        demo.display(3);
+        demo.display(4);
     }
 }
