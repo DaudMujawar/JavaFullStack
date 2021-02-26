@@ -2,19 +2,17 @@ package control_statement;
 
 public class IfStatementDemo {
     public static void main(String[] args) {
-        int a=10,b=20,c=15,d=25;
-        int g=0;
-        int h=2;
+        int a = 10, b = 20, c = 15, d = 25;
+        int g = 0;
+        int h = 2;
 
-        if(a>b && a>c && a>d){
+        if (a > b && a > c && a > d) {
             System.out.println("a is greater");
-        }else if(b>c && b>d){
+        } else if (b > c && b > d) {
             System.out.println("b is greater");
-        }
-        else if(c>d){
+        } else if (c > d) {
             System.out.println("c is greater");
-        }
-        else{
+        } else {
             System.out.println("d is greater");
         }
 
@@ -22,20 +20,20 @@ public class IfStatementDemo {
         int age = 18;
         String nationality = "Indian";
 
-        if(age >=18){
-            if(nationality=="Indian"){
+        if (age >= 18) {
+            if (nationality == "Indian") {
                 System.out.println("You can vote");
-            }else{
+            } else {
                 System.out.println("You are not indian");
             }
-        }else {
+        } else {
             System.out.println("You can not vote");
         }
 
-        int s= g>0?100:200;
+        int s = g > 0 ? 100 : 200;
         System.out.println(s);
 
-        String v=h>4?"num is greater":"num is small";
+        String v = h > 4 ? "num is greater" : "num is small";
         System.out.println(v);
 
     }
