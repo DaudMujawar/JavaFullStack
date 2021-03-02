@@ -11,7 +11,7 @@ public class DoWhileDemo {
 
         while (i<50){
             System.out.println("i small");
-            break;
+            break;      // for stop the process
 //    For increasing value     i++;
         }
 
