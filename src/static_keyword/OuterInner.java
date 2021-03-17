@@ -2,7 +2,7 @@ package static_keyword;
 
 public class OuterInner {
     public static void main(String[] args) {
-        Outer outer=new Outer();
+        Outer outer = new Outer();
         outer.show();
 
 //        Outer.Inner inner=outer.new Inner();            when nothing(private or static)
@@ -13,22 +13,23 @@ public class OuterInner {
     }
 }
 
-class Outer{
-    int i=10;
+class Outer {
+    int i = 10;
 
     public static void main(String[] args) {
-        Outer outer=new Outer();
-        Outer.Inner inner=outer.new Inner();
+        Outer outer = new Outer();
+        Outer.Inner inner = outer.new Inner();
         inner.InnerShow();
     }
-    public void show(){
+
+    public void show() {
         System.out.println(i);
     }
 
-    private class Inner{
-        int i=18;
+    private class Inner {
+        int i = 18;
 
-        public void InnerShow(){
+        public void InnerShow() {
             System.out.println(i);
         }
     }
