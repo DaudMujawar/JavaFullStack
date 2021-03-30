@@ -28,7 +28,6 @@ public class Employee1 {
             System.out.println("Id:" + s.id);
             System.out.println("Name:" + s.name);
             System.out.println("Address:" + s.address);
-
         });
     }
 
