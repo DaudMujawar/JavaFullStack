@@ -3,6 +3,7 @@ package string;
 public class StringBufferDemo {
     public static void main(String[] args) {
 //        String buffer is mutable object
+//        String buffer is synchronized
         StringBuffer stringBuffer=new StringBuffer("Java");
         stringBuffer.append("Programming");
         System.out.println(stringBuffer.reverse());
