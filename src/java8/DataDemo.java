@@ -9,12 +9,12 @@ public class DataDemo {
         System.out.println(date);
         System.out.println(System.currentTimeMillis());
 
-        Date date1=new Date(1618837667058L);
+        Date date1 = new Date(1618837667058L);
         System.out.println(date1);
 
-        LocalDate localDate=LocalDate.now();
-        LocalDate localDate1=LocalDate.now().minusDays(1);
-        LocalDate localDate2=LocalDate.now().plusDays(1);
+        LocalDate localDate = LocalDate.now();
+        LocalDate localDate1 = LocalDate.now().minusDays(1);
+        LocalDate localDate2 = LocalDate.now().plusDays(1);
         System.out.println(localDate.getYear());
         System.out.println(localDate.getDayOfMonth());
 
