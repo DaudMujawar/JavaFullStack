@@ -21,3 +21,4 @@ public class EnumMapDemo {
         WHITE, BLACK, ORANGE, BLUE
     }
 }
+
